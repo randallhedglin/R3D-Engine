@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: R3D Engine - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP7A.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/R3D Engine.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Randy's Folder\R3D Engine\Source\stkston.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP7A.tmp" 
+Creating temporary file "C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP7B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/R3D Engine.pdb" /debug /machine:I386 /out:"Debug/R3D Engine.exe" /pdbtype:sept 
+".\Debug\r3dapp.obj"
+".\Debug\r3ddxa.obj"
+".\Debug\r3ddxg.obj"
+".\Debug\r3ddxi.obj"
+".\Debug\r3dwin.obj"
+".\Debug\stkston.obj"
+"..\..\Program Files\DXSDK\lib\dxguid.lib"
+"..\..\Program Files\DXSDK\lib\d3d8.lib"
+"..\..\Program Files\DXSDK\lib\d3dx8.lib"
+"..\..\Program Files\DXSDK\lib\d3dx8d.lib"
+"..\..\Program Files\DXSDK\lib\d3dx8dt.lib"
+"..\..\Program Files\DXSDK\lib\d3dx.lib"
+"..\..\Program Files\DXSDK\lib\d3dxd.lib"
+"..\..\Program Files\DXSDK\lib\d3dxof.lib"
+"..\..\Program Files\DXSDK\lib\dinput8.lib"
+"..\..\Program Files\DXSDK\lib\dsound.lib"
+"..\..\Program Files\DXSDK\lib\DxErr8.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\Owner\LOCALS~1\Temp\RSP7B.tmp"
+<h3>Output Window</h3>
+Compiling...
+stkston.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+R3D Engine.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
